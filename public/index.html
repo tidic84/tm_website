@@ -36,7 +36,7 @@
 
             let loader = new THREE.GLTFLoader();
             loader.load('/resources/3d/socle.gltf', function(gltf){
-                for (let i = 12; i < 15; i++) {
+                for (let i = 12; i < 17; i++) {
                     const glass = gltf.scene.children[i];
                     glass.material.opacity = 0.1;
                 }
