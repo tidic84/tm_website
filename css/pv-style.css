@@ -20,11 +20,60 @@
 	background-attachment: fixed;
 }
 
-section
+section:nth-child(2n+1)
 {
 	position: relative;
 	height: auto;
 	background: #fafafa;
 	display: flex;
-	
+	flex-direction: row-reverse;
+}
+
+section:nth-child(2n+2)
+{
+	position: relative;
+	height: auto;
+	background: #fafafa;
+	display: flex;
+}
+
+section .imgBx
+{
+	position: sticky;
+	top: 0;
+	min-width: 50%;
+	height: 100vh;
+}
+
+section .imgBx img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 600px;
+}
+
+section:nth-child(2n+1) .content
+{
+	padding: 100px 0 100 px 100px;
+	text-align: right;
+}
+
+section:nth-child(2n+2) .content
+{
+	padding: 100px 100 px 100px 0;
+	text-align: left;
+}
+
+section .content h2
+{
+	margin: 0 0 20px;
+	font-size: 60px;
+}
+
+section .content p
+{
+	color: #777;
+	font-size: 18px;
 }
