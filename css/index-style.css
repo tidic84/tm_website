@@ -35,8 +35,13 @@ nav {
 }
 
 .container {
+    display: flex;
     background-color: aliceblue;
     width: 100%;
-    height: 25rem;
-    display: flex;
+    height: 50rem;
+    background-color: #151515;
+}
+
+.section1-image {
+    width: 50rem;
 }
