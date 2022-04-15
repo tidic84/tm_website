@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--main-bg-color);
-    font-family: Sansation;
+    font-family: 'Sansation';
     color: var(--text-color);
     display: flex;
     flex-direction: column;
