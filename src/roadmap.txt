@@ -4,7 +4,11 @@ puis part2 on 4... t'as capter
 Du coup :
 
 I)-> controle qualité;
-	a dev
+	Nous assurons un reel et consequent controle vit a vit de la qualité de nos produits. En effet nous ne voulons pas
+	vous donner un produit baclé, sans ame. C'est donc tout naturelement que veyons a cela. Mais comment faisons nous ?
+	Nous sommes deja quatres deriere le projet, ce qui insinut que nous avons deja plusieurs visions des choses vit a vit
+	de nos creations. De plus, notre projet a ete montré a de multiples et diverses personnes afin d'avoir un retour tres
+	complet et tres objectif sur nos produits
 II)-> une hype continue;
 	a dev
 III)-> nous sommes en meusure d'offrir un "pourboir" aux personnes les plus fideles au projet;
