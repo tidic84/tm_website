@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "Sansation";
-    src: url("/src/fonts/sansation_regular.ttf");
+    src: url("../src/fonts/sansation_regular.ttf");
 }
 
 body {
