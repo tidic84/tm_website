@@ -1,5 +1,9 @@
 * {
     margin: 0;
+    --main-color: #7D51FC;
+    --text-color: white;
+    --main-bg-color: #0C0C0C;
+    --secondary-bg-color: #151515;
 }
 
 @font-face {
@@ -8,9 +12,9 @@
 }
 
 body {
-    background-color: #0C0C0C;
+    background-color: var(--main-bg-color);
     font-family: Sansation;
-    color: white;
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
 }
@@ -21,6 +25,9 @@ nav {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+}
+highlight {
+    color: var(--main-color);
 }
 .nav-items {
     display: flex;
@@ -33,10 +40,13 @@ nav {
     font-weight: 100;
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: var(--text-color);
 
     margin-right: 4rem;
-
+    transition: 0.5s;
+}
+.navbar-item:hover {
+    color: var(--main-color);
 }
 
 .navbar-title {
@@ -45,27 +55,47 @@ nav {
     margin-left: 3rem;
 }
 
-.container {
+.section1 {
     display: flex;
-    background-color: aliceblue;
     width: 100%;
     height: 40rem;
-    background-color: #151515;
+    background-color: var(--secondary-bg-color);
 }
-
 .section1-image {
     width: 60rem;
 }
-.section1-text {
-    display: flex;
-    flex-direction: column;
-    margin: 5rem;
-    font-size: 1.5rem;
-}
-.section1-text-title {
-    font-size: 2.5rem;
+.section1-title {
+    font-size: 3rem;
     font-weight: bold;
-    width: 100%;
+    margin-top: 15%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    flex-basis: 100%;
+}
+.section1-text {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    flex-basis: 100%;
+    max-width: 80%;
+}
+.section1-button{
+    border: none;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding: 10px 30px;
+    display: inline-block;
+    
+    color: var(--text-color);
+    text-decoration: none;
 
-    margin-top: 3rem;
+    background: var(--main-color);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.section1-button:hover {
+    background: var(--text-color);
+    color: var(--main-color);
 }
